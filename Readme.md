@@ -1,4 +1,3 @@
-
 ## CarbonView JSX
 
 **CarbonView** is the latest and most powerful framework for **App** and **Web** development.
@@ -18,11 +17,16 @@ If you're new to CarbonView, start by learning the **Build API**.
 1. Open the file: `view/view.js`
 2. Start with this documentation:
 
-   * [Core](/Doc/core.md)
-   * [getId](/Doc/getId.md)
-3. Then, explore the **prebuilt components** one by one from this directory:
+   * [Core](./Doc/core.md)
+   * [getId](./Doc/getId.md)
 
-   * [Prebuilt Components](/Doc/preBuilt/)
+3. Then, explore the **prebuilt components**:
+
+   - 📁 **Folder containing all prebuilt components**:  
+     👉 [Doc/prebuilt (folder)](https://github.com/Abdur-Nur-Porag/Carbon-View-X/tree/main/Doc/prebuilt)
+
+   - 📄 **Overview documentation of prebuilt components**:  
+     👉 [Doc/prebuilt.md (file)](./Doc/prebuilt.md)
 
 ---
 
@@ -30,21 +34,22 @@ If you're new to CarbonView, start by learning the **Build API**.
 
 If you're already familiar with the basics:
 
-* Learn about the layout system:
-  👉 [Layout](/Doc/Layout.md)
-* Explore all available prebuilt components:
-  👉 [Prebuilt Component Docs](/Doc/preBuilt.md)
+* Learn about the layout system:  
+  👉 [Layout](./Doc/Layout.md)
+
+* Explore all available prebuilt components:  
+  👉 [Prebuilt Component Docs](./Doc/prebuilt.md)
 
 ---
 
 ## 💡 All Examples
 
-All examples are written in:
-📁 [`view/AllViewTest.js`](/view/AllViewTest.js)
+All examples are written in:  
+📁 [`view/AllViewTest.js`](./view/AllViewTest.js)
 
 ---
 
 ## 📦 APK Build
 
-To build an APK, follow this guide:
-👉 [APK Build Instructions](/Doc/ApkBuild.md)
+To build an APK, follow this guide:  
+👉 [APK Build Instructions](./Doc/ApkBuild.md)
