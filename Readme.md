@@ -17,7 +17,7 @@ Carbon View X provides prebuilt components and assets to accelerate UI developme
 
 All prebuilt items are indexed in the prebuilt folder. See the full list and direct links here:
 
-- Prebuilt index: [prebuilt/PREBUILT.md](./prebuilt/PREBUILT.md)
+- Prebuilt index: [prebuilt/PREBUILT.md](./Doc/preBuilt.md)
 
 (That index contains direct links to every file inside the `prebuilt/` directory for quick access.)
 
