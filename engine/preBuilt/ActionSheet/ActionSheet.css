@@ -1,0 +1,50 @@
+
+.action-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.action-backdrop.showing {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.action-sheet {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  background: #fff;
+  z-index: 1000;
+  transition: transform 0.35s ease-in-out, opacity 0.35s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.action-sheet.bottom {
+  bottom: 0;
+  transform: translateY(100%);
+  border-radius: 12px 12px 0 0;
+}
+.action-sheet.top {
+  top: 0;
+  transform: translateY(-100%);
+  border-radius: 0 0 12px 12px;
+}
+
+.action-sheet.showing {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.sheet-content {
+  padding: 16px;
+  max-height: 80vh;
+  overflow-y: auto;
+  font-family: sans-serif;
+}

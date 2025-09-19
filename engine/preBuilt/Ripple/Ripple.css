@@ -1,0 +1,21 @@
+/* Ripple effect for any element */
+.ripple-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-effect {
+  position: absolute;
+  border-radius: 50%;
+  transform: scale(0);
+  animation: ripple-animation var(--ripple-duration, 600ms) ease-out;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+@keyframes ripple-animation {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}

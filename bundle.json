@@ -1,0 +1,45 @@
+{
+  "css": [
+    {"loc": "uikit/css/beer.css", "comment": "UIKit CSS", "type": "text/css"},
+    {"loc": "engine/preBuilt/ActionSheet/ActionSheet.css", "comment": "ActionSheet CSS", "type": "text/css"},
+    {"loc": "engine/preBuilt/Drawer/Drawer.css", "comment": "Drawer CSS", "type": "text/css"},
+    {"loc": "engine/preBuilt/GridView/GridView.css", "comment": "GridView CSS", "type": "text/css"},
+    {"loc": "engine/preBuilt/ScrollView/ScrollView.css", "comment": "ScrollView CSS", "type": "text/css"},
+    {"loc": "engine/preBuilt/NativeButton/NativeButton.css", "comment": "NativeButton CSS", "type": "text/css"},
+    {"loc": "engine/preBuilt/Ripple/Ripple.css", "comment": "Ripple CSS", "type": "text/css"},
+    {"loc": "engine/preBuilt/Dialog/Dialog.css", "comment": "Dialog CSS", "type": "text/css"},
+    {"loc": "engine/preBuilt/MaterialInput/MaterialInput.css", "comment": "MaterialInput CSS", "type": "text/css"}
+  ],
+  "js": [
+    {"loc": "engine/debug/eruda.min.js", "comment": "Eruda Debug Tool", "type": "text/javascript"},
+ {"loc": "engine/debug/enable.eruda.js", "comment": "Eruda Debug Tool", "type": "text/javascript"},
+       
+{"loc": "engine/compiler/babel.min.js", "comment": "Babel Compiler", "type": "text/javascript"},
+    {"loc": "engine/core/babel/carbon.buildApi.babel.js", "comment": "Core buildApi (Babel)", "type": "text/babel"},
+    {"loc": "engine/core/babel/core.function.babel.js", "comment": "Core functions (Babel)", "type": "text/babel"},
+    {"loc": "engine/core/carbon.getUiBuildApi.js", "comment": "Get UI Build API", "type": "text/javascript"},
+    {"loc": "engine/core/loadExternal.js", "comment": "Load external scripts", "type": "text/javascript"},
+    {"loc": "engine/core/pathSolver.js", "comment": "Path solver", "type": "text/javascript"},
+    {"loc": "engine/core/carbon.globalManager.js", "comment": "Global manager", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/ActionSheet/ActionSheet.js", "comment": "ActionSheet component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/Drawer/Drawer.js", "comment": "Drawer component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/PageView/PageView.js", "comment": "PageView component", "type": "text/javascript"},
+    {"loc": "engine/core/router.js", "comment": "Router for app with Java bridge", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/Alignment/Align.js", "comment": "Align component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/ColumnView/ColumnView.js", "comment": "ColumnView component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/GridView/GridView.js", "comment": "GridView component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/NativeToast/NativeToast.js", "comment": "NativeToast component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/ScrollView/ScrollView.js", "comment": "ScrollView component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/SlideView/SlideView.js", "comment": "SlideView component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/AppBar/AppBar.js", "comment": "AppBar component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/NativeButton/NativeButton.js", "comment": "NativeButton component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/Ripple/Ripple.js", "comment": "Ripple component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/Position/Position.js", "comment": "Position component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/MaterialInput/MaterialInput.js", "comment": "MaterialInput component", "type": "text/javascript"},
+    {"loc": "engine/preBuilt/Dialog/Dialog.js", "comment": "Dialog component", "type": "text/javascript"},
+    {"loc": "engine/themes/themes.js", "comment": "Themes core", "type": "text/javascript"},
+    {"loc": "engine/themes/themes.config.js", "comment": "Themes config", "type": "text/javascript"},
+    {"loc": "uikit/js/material-dynamic-colors.min.js", "comment": "Material dynamic colors", "type": "module"},
+    {"loc": "view/view.js", "comment": "Custom main view (Babel)", "type": "text/babel"}
+  ]
+}

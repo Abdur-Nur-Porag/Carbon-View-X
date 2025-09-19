@@ -1,0 +1,42 @@
+.drawer {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 80%;
+  max-width: 320px;
+  background: white;
+  z-index: 1000;
+  transition:
+    transform 0.45s ease,
+    opacity 0.45s ease;
+  transform: translateX(-100%);
+  opacity: 1; /* Lower opacity when hidden */
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+.drawer.right {
+  right: 0;
+  transform: translateX(100%);
+}
+.drawer.left {
+  left: 0;
+}
+.drawer.showing {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.drawer-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  transition: opacity 0.4s ease;
+  opacity: 0.05; /* Gentle backdrop when hidden */
+  pointer-events: none;
+}
+.drawer-backdrop.showing {
+  opacity: 1;
+  pointer-events: auto;
+}
