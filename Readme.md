@@ -1,50 +1,28 @@
+# Carbon View X
 
-## CarbonView JSX
+Carbon View X app dev UI kit — jsx + carbon view build API based framework.
 
-**CarbonView** is the latest and most powerful framework for **App** and **Web** development.
+## Table of contents
 
-It supports **JSX** and the **Carbon Build API**, making development easier and more intuitive.
+- [About](#about)
+- [Prebuilt components and assets](#prebuilt-components-and-assets)
+- [Getting started](#getting-started)
+- [License](#license)
 
-> 🧠 **Note:** You **don’t need to learn React** to use this. We use only JSX, not React.
+## About
 
----
+Carbon View X provides prebuilt components and assets to accelerate UI development.
 
-## 🟢 For Beginners
+## Prebuilt components and assets
 
-If you're new to CarbonView, start by learning the **Build API**.
+All prebuilt items are indexed in the prebuilt folder. See the full list and direct links here:
 
-### Follow these steps:
+- Prebuilt index: [prebuilt/PREBUILT.md](./prebuilt/PREBUILT.md)
 
-1. Open the file: `view/view.js`
-2. Start with this documentation:
+(That index contains direct links to every file inside the `prebuilt/` directory for quick access.)
 
-   * [Core](/Doc/core.md)
-   * [getId](/Doc/getId.md)
-3. Then, explore the **prebuilt components** one by one from this directory:
+## Getting started
 
-   * [Prebuilt Components](/Doc/preBuilt/)
-
----
-
-## 🧠 For Advanced Users
-
-If you're already familiar with the basics:
-
-* Learn about the layout system:
-  👉 [Layout](/Doc/Layout.md)
-* Explore all available prebuilt components:
-  👉 [Prebuilt Component Docs](/Doc/preBuilt/)
-
----
-
-## 💡 All Examples
-
-All examples are written in:
-📁 [`view/AllViewTest.js`](/view/AllViewTest.js)
-
----
-
-## 📦 APK Build
-
-To build an APK, follow this guide:
-👉 [APK Build Instructions](/Doc/ApkBuild.md)
+1. Clone the repo
+2. Install dependencies (if any)
+3. Explore `prebuilt/` for ready-to-use components and assets
