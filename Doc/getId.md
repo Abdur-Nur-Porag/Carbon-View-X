@@ -15,7 +15,7 @@ This utility helps you control UI elements by their ID. When you need to perform
 
 ## How to use `getId`
 
-```
+```JAVASCRIPT
 //use
 getId(name).<buildApi>
 //example
@@ -27,19 +27,8 @@ getId("exampleBt").text("This is button")
 - You call `getId` with the element's ID as a string.
 - Then chain any build API method using a dot (`.`).
 
-### Example Build APIs:
-- `.text(string)` — Set innerText.
-- `.html()` — Set innerHTML.
-
----
-
-## Example Usage
-
-```
-
-getId("myInput").text("Hello, World!");
-
 ## **AllBuild Api**
+
 | Category   | Method Name        | Description                  |
 |------------|--------------------|------------------------------|
 |            | `.addId(value)`    | Alias of `.id()`             |
@@ -70,7 +59,7 @@ getId("myInput").text("Hello, World!");
 
 ## Ripple Effect
 
-```
+```javascript
 
 .ripple({
 status: true/false,
