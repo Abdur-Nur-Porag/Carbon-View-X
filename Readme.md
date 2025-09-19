@@ -38,7 +38,7 @@ If you're already familiar with the basics:
   👉 [Layout](./Doc/Layout.md)
 
 * Explore all available prebuilt components:  
-  👉 [Prebuilt Component Docs](./Doc/prebuilt.md)
+  👉 [Prebuilt Component Docs](./Doc/preBuilt.md)
 
 ---
 
