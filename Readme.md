@@ -13,7 +13,7 @@ If you are a beginner first learn only **build api**.Follow this steps:
 
 ## If Advanced
 - Learn [Layout](/Doc/Layout.md)
-- Then others [prebuilt component](/Doc/preBuilt)
+- Then others [prebuilt component](/Doc/preBuilt/)
 - 
 
 ## All Example
