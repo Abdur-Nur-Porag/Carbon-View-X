@@ -1,2 +1,34 @@
-npm i beercss
-npm i material-dynamic-colors
+{
+  "name": "carbon-view-x",
+  "version": "1.0.0",
+  "description": "Carbon View X is an app development UI kit built using JSX and a Carbon View-based API framework. It uses only JSX—no React involved. The build API is pure JavaScript.",
+  "main": "view/view.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"No tests specified\" && exit 0",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Abdur-Nur-Porag/Carbon-View-X.git"
+  },
+  "author": "Abdur Nur Porag abdurnurporag@gmail.com",
+  "license": "ISC",
+  "keywords": [
+    "carbon-view",
+    "ui-kit",
+    "jsx",
+    "javascript",
+    "framework",
+    "app-development",
+    "material-design",
+    "beercss"
+  ],
+  "dependencies": {
+    "beercss": "^3.4.10",
+    "material-dynamic-colors": "^1.2.1"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
